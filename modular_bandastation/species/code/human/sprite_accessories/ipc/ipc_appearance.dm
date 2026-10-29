@@ -77,6 +77,12 @@ GLOBAL_LIST_INIT(ipc_antennae, init_ipc_appearance_choices(/datum/sprite_accesso
 	has_body = FALSE
 	is_monitor = TRUE
 
+/datum/ipc_chassis/yangcompany
+	name = "Yang Company"
+	icon = 'modular_bandastation/species/icons/ipc/yangcompany.dmi'
+	has_head = TRUE
+	has_body = TRUE
+
 /datum/ipc_chassis/xion
 	name = "Xion Manufacturing Group"
 	icon = 'modular_bandastation/species/icons/ipc/xion.dmi'
