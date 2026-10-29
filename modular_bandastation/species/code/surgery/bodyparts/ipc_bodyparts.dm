@@ -233,5 +233,60 @@
 	// Ordinary augmented humans get thermal immunity here. IPCs use their species' thermal limits.
 	return
 
+// === НОВАЯ МОДЕЛЬ (ШАССИ) КПБ ===
+/obj/item/bodypart/head/robot/ipc/yangcompany
+	limb_id = SPECIES_IPC
+	change_exempt_flags = NONE
+	icon = 'modular_bandastation/species/icons/ipc/yangcompany.dmi'
+	icon_state = "robotic_head_f"
+	icon_static = 'modular_bandastation/species/icons/ipc/yangcompany.dmi'
+	brute_modifier = 1
+	burn_modifier = 1
+	head_flags = HEAD_NO_DISFIGURE
+
+/obj/item/bodypart/chest/robot/ipc/yangcompany
+	limb_id = SPECIES_IPC
+	change_exempt_flags = NONE
+	icon = 'modular_bandastation/species/icons/ipc/yangcompany.dmi'
+	icon_state = "robotic_chest_f"
+	icon_static = 'modular_bandastation/species/icons/ipc/yangcompany.dmi'
+	brute_modifier = 1
+	burn_modifier = 1
+
+/obj/item/bodypart/arm/left/robot/ipc/yangcompany
+	limb_id = SPECIES_IPC
+	change_exempt_flags = NONE
+	icon = 'modular_bandastation/species/icons/ipc/yangcompany.dmi'
+	icon_state = "robotic_l_arm"
+	icon_static = 'modular_bandastation/species/icons/ipc/yangcompany.dmi'
+	brute_modifier = 1
+	burn_modifier = 1
+
+/obj/item/bodypart/arm/right/robot/ipc/yangcompany
+	limb_id = SPECIES_IPC
+	change_exempt_flags = NONE
+	icon = 'modular_bandastation/species/icons/ipc/yangcompany.dmi'
+	icon_state = "robotic_r_arm"
+	icon_static = 'modular_bandastation/species/icons/ipc/yangcompany.dmi'
+	brute_modifier = 1
+	burn_modifier = 1
+
+/obj/item/bodypart/leg/left/robot/ipc/yangcompany
+	limb_id = SPECIES_IPC
+	change_exempt_flags = NONE
+	icon = 'modular_bandastation/species/icons/ipc/yangcompany.dmi'
+	icon_state = "robotic_l_leg"
+	icon_static = 'modular_bandastation/species/icons/ipc/yangcompany.dmi'
+	brute_modifier = 1
+	burn_modifier = 1
+
+/obj/item/bodypart/leg/right/robot/ipc/yangcompany
+	limb_id = SPECIES_IPC
+	change_exempt_flags = NONE
+	icon = 'modular_bandastation/species/icons/ipc/yangcompany.dmi'
+	icon_state = "robotic_r_leg"
+	icon_static = 'modular_bandastation/species/icons/ipc/yangcompany.dmi'
+	brute_modifier = 1
+	burn_modifier = 1
 #undef IPC_EMP_HEAVY_LIMB_DAMAGE
 #undef IPC_EMP_LIGHT_LIMB_DAMAGE
