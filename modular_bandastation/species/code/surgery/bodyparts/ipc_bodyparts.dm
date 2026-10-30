@@ -243,7 +243,6 @@
 	burn_modifier = 1
 	head_flags = HEAD_NO_DISFIGURE
 	ipc_display_name = /datum/sprite_accessory/ipc_display/humanoid_optics::name
-	is_monitor = FALSE
 
 /obj/item/bodypart/head/robot/ipc/yangcompany/update_limb(dropping_limb = FALSE, is_creating = FALSE)
 	. = ..()
